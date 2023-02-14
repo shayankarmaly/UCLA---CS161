@@ -1,0 +1,57 @@
+Shayan Karmaly
+UID: 805554581
+CS 161
+Professor Guy Van Den Broeck
+
+
+Homework #1
+
+
+1.    1. When running at least 10 numbers, we get the output of the number 193
+   2. As we run larger values, we see a much bigger jump in the output number than previous values
+   3. For e.g. SEQ(12) outputs the value of 653 and SEQ(14) outputs the value 2209 where we see a significant jump in values across these two input values that are very close. 
+Test cases:                                        Output:
+(print(SEQ 0))                                        1
+(print(SEQ 1))                                        1
+(print(SEQ 2))                                        1
+(print(SEQ 3))                                        3
+(print(SEQ 4))                                        5
+(print(SEQ 5))                                        9
+(print(SEQ 6))                                        17
+(print(SEQ 7))                                        31
+(print(SEQ 8))                                        57
+(print(SEQ 9))                                        105
+(print(SEQ 10))                                	      193
+(print(SEQ 12))                                       653
+(print(SEQ 14))                                       2209
+
+
+2. I observed that when whenever we call SUMS(N), it’s output value is always 1 less than SEQ(N)’s output value. 
+Test Cases:                                           Output:
+(print(SUMS 0))                               		0
+(print(SUMS 1))                                		0
+(print(SUMS 2))                                		0
+(print(SUMS 3))                                		1
+(print(SUMS 4))                                		1
+(print(SUMS 5))                                		2
+(print(SUMS 6))                                		3
+(print(SUMS 7))                                		4
+(print(SUMS 8))                                		6
+(print(SUMS 9))                                		8
+
+
+3. Running the given test cases returns the correct output:
+> (ANON ’42)
+0
+> (ANON ’FOO)
+0
+> (ANON ’(((L E) F) T))
+(((0 0) 0) 0)
+> (ANON ’(5 FOO 3.1 -0.2))
+(0 0 0 0)
+> (ANON ’(1 (FOO 3.1) -0.2))
+(0 (0 0) 0)
+> (ANON ’(((1 2) (FOO 3.1)) (BAR -0.2)))
+(((0 0) (0 0)) (0 0))
+> (ANON ’(R (I (G (H T)))))
+(0 (0 (0 (0 0))))

@@ -1,0 +1,25 @@
+Shayan Karmaly
+Professor Guy
+CS 161 Fall '22
+14th November 2022
+
+
+
+
+					Homework #4 Problems
+
+1. The instance is unsatisfiable with 3 colors. 
+
+2. Doing the conversion again, but this time with 4 colors, the instance is now satisfiable. 
+
+3. The answers of these two SAT instances tell us about the graph coloring problem of the above graph that the SAT solver requires greater than or equal to 4 colors which explains why in (1) the color index of 3 is not satisfiable. A solution (a coloring) to the graph coloring problem of the above graph based on the results of RSat would be using the 4 colors (green, blue, yellow, purple):
+Node 1 - green
+Node 2 - blue
+Node 3 - purple
+Node 4 - green
+Node 5 - blue
+Node 6 - purple
+Node 7 - yellow
+
+
+4. Using a similar approach to solve the graph coloring of the graph described in graph2.txt, the minimum number of colors required to properly color this graph we would need would be 8 colors since it was unsatisfiable with colors less than 8, but satisfiable with 8 colors. 
